@@ -1,5 +1,5 @@
 import json, pyttsx3
-from difflib import get_close_matches
+from difflib import get_close_matches #Library to get close matches
 
 data = json.load(open("data.json"))
 
